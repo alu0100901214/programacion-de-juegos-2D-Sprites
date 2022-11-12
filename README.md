@@ -53,7 +53,7 @@
 
 ### 6 Ambos objetos son físicos y uno de ellos está marcado como IsTrigger.
 
-![gif](./GIF/isTriggerAmbosFisicos.gif)
+![gif](./GIF/isTriggerAmbosFisiscos.gif)
 
 ### 7 Uno de los objetos es cinemático.
 
