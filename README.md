@@ -4,11 +4,11 @@
 
 -> Obteniendo el input de los controler para movernos horizontalmente:
 
-´´´
+```
 void Update(){ 
         inputHorizontal = Input.GetAxisRaw("Horizontal");
 }
-´´´
+```
 
 -> Podremos mover al personaje añadiendo una fuerza en la dirección que nos indiquen.
 
@@ -45,7 +45,7 @@ void OnTriggerEnter2D(Collider2D other) {
 
 -> Agregamos a la máquina de estados la animación del zombie Idle y la animación Walking, se añade un parámetro booleano isWalking que cambiamos desde el script a true o false dependiendo de si el zombie esta caminando o no.
 
-![img](./img/estadoWalk.gif)
+![img](./img/estadoWalk.PNG)
 
 
 ![gif](./GIF/WalkAnimation.gif)
@@ -54,7 +54,7 @@ void OnTriggerEnter2D(Collider2D other) {
 
 -> Agregamos también la animación Death en la máquina de estados, cuando el zombie colisiona con otro, activamos la animación del Death con otro parámetro booleano llamado gotHit.
 
-![img](./img/estadoDeath.gif)
+![img](./img/estadoDeath.PNG)
 
 
 ![gif](./GIF/DeathAnimation.gif)
