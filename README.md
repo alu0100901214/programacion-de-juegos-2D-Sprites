@@ -43,20 +43,29 @@ void OnTriggerEnter2D(Collider2D other) {
 
 ## Animaciones del personaje cuando camina:
 
+-> Agregamos a la máquina de estados la animación del zombie Idle y la animación Walking, se añade un parámetro booleano isWalking que cambiamos desde el script a true o false dependiendo de si el zombie esta caminando o no.
+
+![img](./img/estadoWalk.gif)
+
+
 ![gif](./GIF/WalkAnimation.gif)
 
 ## Animaciones del personaje cuando choca con otro zombie:
 
-![gif](./GIF/DeathAnimation.gif)
+-> Agregamos también la animación Death en la máquina de estados, cuando el zombie colisiona con otro, activamos la animación del Death con otro parámetro booleano llamado gotHit.
 
+![img](./img/estadoDeath.gif)
+
+
+![gif](./GIF/DeathAnimation.gif)
 
 ## Animaciones Goblin, activar la animación del ataque del Goblin al colisionar con el Zombie:
 
-![gif](./GIF/Flip.gif)
+![gif](./GIF/goblin.gif)
 
 ## Elemento decorativo para crear un Joint:
 
-![gif](./GIF/Flip.gif)
+![gif](./GIF/goblin.gif)
 
 ## Prueba de física 2D:
 
